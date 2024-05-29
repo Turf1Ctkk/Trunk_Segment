@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <node pkg="yolov8_ros" type="yolo_v8.py" name="yolov8_ros" output="screen" >
+    <param name="weight_path"       value="$(find yolov8_ros)/weights/yolov8s-seg.pt"/>
+  </node>
+
+</launch>

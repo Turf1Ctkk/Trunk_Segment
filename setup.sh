@@ -38,3 +38,11 @@ catkin_make
 
 # Source the setup.bash to overlay on the ROS environment
 source ./devel/setup.bash
+
+cd ~/$WORKSPACE_NAME/src/$PACKAGE_RENAMED
+conda create --name yolov8 python=3.8
+conda activate yolov8
+pip3 install torch torchvision torchaudio
+pip3 install -r requirements.txt
+cd ../..
+catkin_make && source ./devel/setup.bash

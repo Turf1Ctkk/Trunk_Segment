@@ -32,4 +32,4 @@ git clone https://github.com/ultralytics/ultralytics.git
 cd scripts
 chmod +x $SCRIPT_NAME
 cd ../../..
-catkin_make && source ./devel/setup.bash
+catkin_make

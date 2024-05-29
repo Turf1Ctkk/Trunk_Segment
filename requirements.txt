@@ -1,6 +1,5 @@
 numpy
 opencv-python
-torch torchvision torchaudio
 rospy
 cv_bridge
 message_filters

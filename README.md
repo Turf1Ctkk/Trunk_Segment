@@ -11,5 +11,5 @@
 ```
 git clone https://github.com/Turf1Ctkk/Trunk_Segment.git
 cd Trunk_Segment
-chmod +x setup.sh && ./setup.sh
+chmod +x setup.sh && sh ./setup.sh
 ```

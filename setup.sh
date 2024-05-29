@@ -11,7 +11,8 @@ mkdir -p ~/$WORKSPACE_NAME/src
 cd ~/$WORKSPACE_NAME
 
 # Build the workspace with the desired Python executable
-catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+#catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+catkin_make
 
 # Navigate to source directory
 cd src
